@@ -6,11 +6,11 @@ s_studets = sorted(list(students))
 print(s_studets)
 
 # ВЫчисляем средний балл
-average_grades = [int(sum(grades[0])/len(grades[0])),
-                  int(sum(grades[1])/len(grades[1])),
-                  int(sum(grades[2])/len(grades[2])),
-                  int(sum(grades[3])/len(grades[3])),
-                  int(sum(grades[4])/len(grades[4]))
+average_grades = [(sum(grades[0])/len(grades[0])),
+                  (sum(grades[1])/len(grades[1])),
+                  (sum(grades[2])/len(grades[2])),
+                  (sum(grades[3])/len(grades[3])),
+                  (sum(grades[4])/len(grades[4]))
                   ]
 print(average_grades)
 
