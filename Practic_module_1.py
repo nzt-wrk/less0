@@ -15,10 +15,6 @@ average_grades = [(sum(grades[0])/len(grades[0])),
 print(average_grades)
 
 # Формируем словарь из отсортированого списка студентов и среднего балла
-dict_students = {s_studets[0]:average_grades[0],
-                 s_studets[1]:average_grades[1],
-                 s_studets[2]:average_grades[2],
-                 s_studets[3]:average_grades[3],
-                 s_studets[4]:average_grades[4],
-                 }
+
+dict_students = dict(zip(s_studets, average_grades))
 print(dict_students)
